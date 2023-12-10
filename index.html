@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Candy Management App</title>
+</head>
+<body>
+  <div id="app">
+    <h1>Candy Management App</h1>
+    <div id="candylist"></div>
+    <div>
+      <label for="candyname">Candy Name:</label>
+      <input type="text" id="candy-name" />
+
+      <label for="candydescription">Description:</label>
+      <input type="text" id="candy-description" />
+
+      <label for="candyprice">Price:</label>
+      <input type="number" id="candy-price" />
+
+      <label for="candyquantity">Quantity:</label>
+      <input type="number" id="candy-quantity" />
+
+      <button onclick="addCandy()">Add Candy</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
